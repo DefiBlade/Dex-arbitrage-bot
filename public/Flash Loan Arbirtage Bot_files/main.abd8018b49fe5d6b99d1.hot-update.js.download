@@ -1,0 +1,1549 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/Display.jsx":
+/*!************************************!*\
+  !*** ./src/components/Display.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./App.css */ "./src/components/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var web3__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! web3 */ "./node_modules/web3/dist/web3.umd.js");
+/* harmony import */ var web3__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(web3__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _abi__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./abi */ "./src/components/abi.js");
+/* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! mdbreact */ "./node_modules/mdbreact/dist/mdbreact.esm.js");
+/* harmony import */ var _firebase_firebase__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./firebase/firebase */ "./src/components/firebase/firebase.js");
+/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-icons/fi */ "./node_modules/react-icons/fi/index.esm.js");
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
+/* harmony import */ var react_icons_bs__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-icons/bs */ "./node_modules/react-icons/bs/index.esm.js");
+/* harmony import */ var _contracts_artifacts_FlashloanV1_json__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../contracts/artifacts/FlashloanV1.json */ "./src/contracts/artifacts/FlashloanV1.json");
+var _contracts_artifacts_FlashloanV1_json__WEBPACK_IMPORTED_MODULE_17___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../contracts/artifacts/FlashloanV1.json */ "./src/contracts/artifacts/FlashloanV1.json", 1);
+
+
+
+
+
+
+
+var _jsxFileName = "E:\\TASK\\11_Flash loan\\BHG-Flosh-loan-abitrage\\src\\components\\Display.jsx";
+
+
+
+
+
+
+
+
+
+
+
+var options = {
+  timeout: 30000,
+  clientConfig: {
+    maxReceivedFrameSize: 100000000,
+    maxReceivedMessageSize: 100000000
+  },
+  reconnect: {
+    auto: true,
+    delay: 5000,
+    maxAttempts: 15,
+    onTimeout: false
+  }
+}; // const web3 = new Web3(new Web3.providers.WebsocketProvider('wss://purple-wispy-flower.quiknode.pro/a2ae460515f061ce64f526edcb10eda275f62585/', options));
+
+var web3 = new web3__WEBPACK_IMPORTED_MODULE_10___default.a(new web3__WEBPACK_IMPORTED_MODULE_10___default.a.providers.HttpProvider("https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"));
+var uniswap_address = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D';
+var sushi_address = '0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F';
+var Eth_address = '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2';
+var smartContractAddress = ""; // const web3    = new Web3(new Web3.providers.HttpProvider("https://kovan.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"));
+// const uniswap_address = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'
+// const sushi_address = '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506'
+// const Eth_address   = '0xd0A1E359811322d97991E03f863a0C30C2cF029C'
+
+var intervalvar;
+
+var Display =
+/*#__PURE__*/
+function (_Component) {
+  Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Display, _Component);
+
+  function Display(props) {
+    var _this;
+
+    Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Display);
+
+    _this = Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Display).call(this, props));
+    _this.state = {
+      // capture parameter
+      uni_buy: 0,
+      uni_sell: 0,
+      sushi_buy: 0,
+      sushi_sell: 0,
+      uni2sushiRate: 0,
+      sushi2uniRate: 0,
+      tableDatas: [],
+      tableData: [],
+      // input token
+      inputAddress: "",
+      tokenAddresses: [],
+      // trading parameter
+      tradeToken: '',
+      tradebuyprice: 0,
+      tradesellprice: 0,
+      traderate: 0,
+      log: '',
+      loanTokenAddress: '',
+      loanAmount: '',
+      logTimestamp: '',
+      logList: '',
+      direction: 1,
+      // auto start
+      modalShowState: false,
+      autoProfit: 0,
+      autoAmount: 1,
+      autoTime: 10,
+      autoSlippage: 100,
+      autoGasLimit: 500000,
+      autoGasValue: '40',
+      autoExcuteButtonState: false,
+      ownerAddress: '',
+      ownerPrivateKey: '',
+      autoModeState: false,
+      walletBalance: '',
+      logs: [],
+      contractAddress: ''
+    };
+    return _this;
+  }
+
+  Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Display, [{
+    key: "componentWillMount",
+    value: function () {
+      var _componentWillMount = Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+        return E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                this.loadAddresses();
+                _context.next = 3;
+                return this.loadLog();
+
+              case 3:
+                clearInterval(this.timerID);
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function componentWillMount() {
+        return _componentWillMount.apply(this, arguments);
+      }
+
+      return componentWillMount;
+    }()
+  }, {
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+        var _this2 = this;
+
+        return E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                this.timerID = setInterval(function () {
+                  return _this2.start();
+                }, 5000);
+
+              case 1:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      }
+
+      return componentDidMount;
+    }()
+  }, {
+    key: "loadAddresses",
+    value: function () {
+      var _loadAddresses = Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee3() {
+        var _this3 = this;
+
+        return E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                _firebase_firebase__WEBPACK_IMPORTED_MODULE_13__["database"].ref('TokenAddress/').get().then(function (snapshot) {
+                  if (snapshot.exists) {
+                    var walletList = [];
+                    var newArray = snapshot.val();
+
+                    if (newArray) {
+                      Object.keys(newArray).map(function (key) {
+                        var value = newArray[key];
+                        walletList.push({
+                          Address: web3.utils.toChecksumAddress(value.Address)
+                        });
+                      });
+                    }
+
+                    _this3.setState({
+                      tokenAddresses: walletList
+                    });
+
+                    _this3.start();
+                  }
+                });
+
+              case 1:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3);
+      }));
+
+      function loadAddresses() {
+        return _loadAddresses.apply(this, arguments);
+      }
+
+      return loadAddresses;
+    }()
+  }, {
+    key: "loadLog",
+    value: function loadLog() {
+      var _this4 = this;
+
+      _firebase_firebase__WEBPACK_IMPORTED_MODULE_13__["database"].ref('log/').get().then(function (snapshot) {
+        if (snapshot.exists) {
+          var logs = [];
+          var newArray = snapshot.val();
+
+          if (newArray) {
+            Object.keys(newArray).map(function (key, index) {
+              var value = newArray[key];
+              logs.unshift({
+                timeStamp: value.timeStamp,
+                tradeToken: value.tradeToken,
+                loanAmount: value.loanAmount,
+                direction: value.direction,
+                tradeRate: value.tradeRate
+              });
+            });
+          }
+
+          _this4.setState({
+            logs: logs
+          });
+        }
+      });
+    }
+  }, {
+    key: "start",
+    value: function () {
+      var _start = Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee4() {
+        var index, tokenContract, tokenName, tokenDecimal, mycontract1, uni_buy, uni_sell, mycontract2, sushi_buy, sushi_sell, uni2sushiRate, sushi2uniRate, uni2sushiRateStyle, sushi2uniRateStyle, tableData, tableDatas;
+        return E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+                index = 0;
+
+              case 1:
+                if (!(index < this.state.tokenAddresses.length)) {
+                  _context4.next = 41;
+                  break;
+                }
+
+                tokenContract = new web3.eth.Contract(_abi__WEBPACK_IMPORTED_MODULE_11__["erc20abi"], this.state.tokenAddresses[index]["Address"]);
+                _context4.next = 5;
+                return tokenContract.methods.symbol().call().then(function (res) {
+                  return res;
+                });
+
+              case 5:
+                tokenName = _context4.sent;
+                _context4.next = 8;
+                return tokenContract.methods.decimals().call();
+
+              case 8:
+                tokenDecimal = _context4.sent;
+                mycontract1 = new web3.eth.Contract(_abi__WEBPACK_IMPORTED_MODULE_11__["abi"], uniswap_address);
+                _context4.next = 12;
+                return mycontract1.methods.getAmountsOut(Math.pow(10, 15), [Eth_address, this.state.tokenAddresses[index]["Address"]]).call();
+
+              case 12:
+                uni_buy = _context4.sent;
+                _context4.next = 15;
+                return mycontract1.methods.getAmountsOut(Math.pow(10, 15), [this.state.tokenAddresses[index]["Address"], Eth_address]).call();
+
+              case 15:
+                uni_sell = _context4.sent;
+                uni_buy = Math.round(uni_buy[1] / Math.pow(10, tokenDecimal - 6)) / 1000;
+                uni_sell = Math.round(Math.pow(10, tokenDecimal) / uni_sell[1]) / 1000;
+                mycontract2 = new web3.eth.Contract(_abi__WEBPACK_IMPORTED_MODULE_11__["abi"], sushi_address);
+                _context4.next = 21;
+                return mycontract2.methods.getAmountsOut(Math.pow(10, 15), [Eth_address, this.state.tokenAddresses[index]["Address"]]).call();
+
+              case 21:
+                sushi_buy = _context4.sent;
+                _context4.next = 24;
+                return mycontract2.methods.getAmountsOut(Math.pow(10, 15), [this.state.tokenAddresses[index]["Address"], Eth_address]).call();
+
+              case 24:
+                sushi_sell = _context4.sent;
+                sushi_buy = Math.round(sushi_buy[1] / Math.pow(10, tokenDecimal - 6)) / 1000;
+                sushi_sell = Math.round(Math.pow(10, tokenDecimal) / sushi_sell[1]) / 1000;
+                uni2sushiRate = Math.round((uni_buy - sushi_sell) * 10000 / sushi_sell) / 100;
+                sushi2uniRate = Math.round((sushi_buy - uni_sell) * 10000 / uni_sell) / 100;
+                uni2sushiRateStyle = void 0;
+                sushi2uniRateStyle = void 0;
+
+                if (uni2sushiRate >= 0) {
+                  uni2sushiRateStyle = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+                    className: "text-success",
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 186
+                    },
+                    __self: this
+                  }, " ", uni2sushiRate, " ");
+
+                  if (uni2sushiRate > this.state.traderate) {
+                    this.setState({
+                      tradeTokenAddress: this.state.tokenAddresses[index]["Address"],
+                      tradeToken: tokenName,
+                      tradebuyprice: uni_buy,
+                      tradesellprice: sushi_sell,
+                      traderate: uni2sushiRate,
+                      direction: 1
+                    });
+                  }
+                } else if (uni2sushiRate < 0) {
+                  uni2sushiRateStyle = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+                    className: "text-danger",
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 201
+                    },
+                    __self: this
+                  }, " ", uni2sushiRate, " ");
+                }
+
+                if (sushi2uniRate >= 0) {
+                  sushi2uniRateStyle = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+                    className: "text-success",
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 206
+                    },
+                    __self: this
+                  }, " ", sushi2uniRate, " ");
+
+                  if (sushi2uniRate > this.state.traderate) {
+                    this.setState({
+                      tradeTokenAddress: this.state.tokenAddresses[index]["Address"],
+                      tradeToken: tokenName,
+                      tradebuyprice: sushi_buy,
+                      tradesellprice: uni_sell,
+                      traderate: sushi2uniRate,
+                      direction: 2
+                    });
+                  }
+                } else if (sushi2uniRate < 0) {
+                  sushi2uniRateStyle = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+                    className: "text-danger",
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 221
+                    },
+                    __self: this
+                  }, " ", sushi2uniRate, " ");
+                }
+
+                if (this.state.tradeToken == tokenName) {
+                  if (this.state.direction == 1) {
+                    this.setState({
+                      traderate: uni2sushiRate
+                    });
+                  } else if (this.state.direction == 2) {
+                    this.setState({
+                      traderate: sushi2uniRate
+                    });
+                  }
+                }
+
+                tableData = {
+                  tokenName: tokenName,
+                  tokenDecimal: tokenDecimal,
+                  uni_buy: uni_buy,
+                  uni_sell: uni_sell,
+                  sushi_buy: sushi_buy,
+                  sushi_sell: sushi_sell,
+                  uni2sushiRate: uni2sushiRate,
+                  sushi2uniRate: sushi2uniRate,
+                  uni2sushiRateStyle: uni2sushiRateStyle,
+                  sushi2uniRateStyle: sushi2uniRateStyle
+                };
+                tableDatas = this.state.tableDatas;
+                tableDatas[index] = tableData;
+                this.setState({
+                  tableDatas: tableDatas
+                });
+
+              case 38:
+                index++;
+                _context4.next = 1;
+                break;
+
+              case 41:
+              case "end":
+                return _context4.stop();
+            }
+          }
+        }, _callee4, this);
+      }));
+
+      function start() {
+        return _start.apply(this, arguments);
+      }
+
+      return start;
+    }()
+  }, {
+    key: "addAddress",
+    value: function () {
+      var _addAddress = Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee5() {
+        var index, _buffer, tokenAddressList, userListRef, newUserRef, buffer;
+
+        return E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee5$(_context5) {
+          while (1) {
+            switch (_context5.prev = _context5.next) {
+              case 0:
+                if (!(this.state.inputAddress == "")) {
+                  _context5.next = 3;
+                  break;
+                }
+
+                alert("Please check  Address");
+                return _context5.abrupt("return");
+
+              case 3:
+                index = 0;
+
+              case 4:
+                if (!(index < this.state.tokenAddresses.length)) {
+                  _context5.next = 13;
+                  break;
+                }
+
+                if (!(this.state.tokenAddresses[index]["Address"] == web3.utils.toChecksumAddress(this.state.inputAddress))) {
+                  _context5.next = 10;
+                  break;
+                }
+
+                _buffer = '';
+                this.setState({
+                  inputAddress: _buffer
+                });
+                alert("Aleady exist");
+                return _context5.abrupt("return");
+
+              case 10:
+                index++;
+                _context5.next = 4;
+                break;
+
+              case 13:
+                tokenAddressList = {
+                  Address: web3.utils.toChecksumAddress(this.state.inputAddress)
+                };
+                userListRef = _firebase_firebase__WEBPACK_IMPORTED_MODULE_13__["database"].ref('TokenAddress');
+                newUserRef = userListRef.push();
+                newUserRef.set(tokenAddressList);
+                buffer = '';
+                this.setState({
+                  inputAddress: buffer
+                });
+                alert("input successfuly");
+                this.loadAddresses();
+
+              case 21:
+              case "end":
+                return _context5.stop();
+            }
+          }
+        }, _callee5, this);
+      }));
+
+      function addAddress() {
+        return _addAddress.apply(this, arguments);
+      }
+
+      return addAddress;
+    }()
+  }, {
+    key: "manualExcute",
+    value: function () {
+      var _manualExcute = Object(E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee6() {
+        var _this5 = this;
+
+        var privateWeb3, loanContract, nonce, tx, promise;
+        return E_TASK_11_Flash_loan_BHG_Flosh_loan_abitrage_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee6$(_context6) {
+          while (1) {
+            switch (_context6.prev = _context6.next) {
+              case 0:
+                if (!(this.state.traderate < this.state.autoProfit)) {
+                  _context6.next = 3;
+                  break;
+                }
+
+                console.log("faild profit");
+                return _context6.abrupt("return");
+
+              case 3:
+                console.log('successful');
+                privateWeb3 = window.web3;
+                _context6.next = 7;
+                return privateWeb3.eth.Contract(_contracts_artifacts_FlashloanV1_json__WEBPACK_IMPORTED_MODULE_17__.abi, smartContractAddress);
+
+              case 7:
+                loanContract = _context6.sent;
+                _context6.next = 10;
+                return privateWeb3.eth.getTransactionCount(this.state.ownerAddress);
+
+              case 10:
+                nonce = _context6.sent;
+                console.log(nonce, this.state.ownerAddress, this.state.autoAmount, this.state.tradeToken, this.state.direction);
+                console.log(this.state.autoGasLimit, this.state.autoGasValue);
+                tx = {
+                  from: this.state.ownerAddress,
+                  to: smartContractAddress,
+                  data: loanContract.methods.flashloan(this.state.autoAmount, this.state.tradeTokenAddress, this.state.direction).encodeABI(),
+                  gasValue: web3.utils.toWei(this.state.autoGasValue, 'Gwei'),
+                  gas: this.state.autoGasLimit,
+                  nonce: nonce
+                };
+                _context6.next = 16;
+                return privateWeb3.eth.accounts.signTransaction(tx, this.state.ownerPrivateKey);
+
+              case 16:
+                promise = _context6.sent;
+                _context6.next = 19;
+                return privateWeb3.eth.sendSignedTransaction(promise.rawTransaction).once('confirmation', function () {
+                  var logList = {
+                    timeStamp: new Date().toISOString(),
+                    loanAmount: _this5.state.autoAmount,
+                    tradeToken: _this5.state.tradeToken,
+                    tradeRate: _this5.state.traderate,
+                    direction: _this5.state.direction
+                  };
+                  var userListRef = _firebase_firebase__WEBPACK_IMPORTED_MODULE_13__["database"].ref('log');
+                  var newUserRef = userListRef.push();
+                  newUserRef.set(logList);
+                  var buffer = '';
+
+                  _this5.setState({
+                    logList: buffer
+                  });
+                }).once('error', function (e) {
+                  console.log(e);
+                });
+
+              case 19:
+              case "end":
+                return _context6.stop();
+            }
+          }
+        }, _callee6, this);
+      }));
+
+      function manualExcute() {
+        return _manualExcute.apply(this, arguments);
+      }
+
+      return manualExcute;
+    }()
+  }, {
+    key: "autoExcute",
+    value: function autoExcute() {
+      if (this.state.ownerAddress == '' || this.state.ownerPrivateKey == '') {
+        alert("please input address and privatekey");
+        return;
+      }
+
+      this.setState({
+        modalShowState: true
+      });
+    }
+  }, {
+    key: "autoExcuteStart",
+    value: function autoExcuteStart() {
+      var _this6 = this;
+
+      this.setState({
+        autoExcuteButtonState: true,
+        modalShowState: false
+      });
+      intervalvar = setInterval(function () {
+        return _this6.manualExcute();
+      }, this.state.autoTime * 1000);
+    }
+  }, {
+    key: "closeModal",
+    value: function closeModal() {
+      this.setState({
+        modalShowState: false,
+        autoProfit: 100,
+        autoAmount: 1,
+        autoTime: 10000,
+        autoSlippage: 100,
+        autoGasLimit: 500000,
+        autoGasValue: 40
+      });
+    }
+  }, {
+    key: "stopAutoExcute",
+    value: function stopAutoExcute() {
+      this.setState({
+        autoExcuteButtonState: false,
+        autoProfit: 1,
+        autoAmount: 1,
+        autoTime: 1,
+        autoSlippage: 100,
+        autoGasLimit: 500000,
+        autoGasValue: 40,
+        autoModeState: false
+      });
+      console.log("stop excute");
+      clearInterval(intervalvar);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this7 = this;
+
+      var rowstable = this.state.tableDatas;
+      var datatable = {
+        columns: [{
+          label: 'Token',
+          field: 'tokenName'
+        }, {
+          label: 'Uni buy Eth/Token',
+          field: 'uni_buy'
+        }, {
+          label: 'sushi sell Eth/Token',
+          field: 'sushi_sell'
+        }, {
+          label: 'Profit Rate',
+          field: 'uni2sushiRateStyle'
+        }, {
+          label: 'sushi buy Eth/Token',
+          field: 'sushi_buy'
+        }, {
+          label: 'uni sell Eth/Token',
+          field: 'uni_sell'
+        }, {
+          label: 'Profit Rate',
+          field: 'sushi2uniRateStyle'
+        }],
+        rows: rowstable
+      };
+      var rowslog = this.state.logs;
+      var datalog = {
+        columns: [{
+          label: 'TimeStamp',
+          field: 'timeStamp',
+          sort: 'asc',
+          width: 150
+        }, {
+          label: 'Trade Token',
+          field: 'tradeToken',
+          sort: 'asc',
+          width: 270
+        }, {
+          label: 'Trade Amount',
+          field: 'loanAmount',
+          sort: 'asc',
+          width: 200
+        }, {
+          label: 'direction',
+          field: 'direction',
+          sort: 'asc',
+          width: 100
+        }, {
+          label: 'Trade Rate',
+          field: 'tradeRate',
+          sort: 'asc',
+          width: 100
+        }],
+        rows: rowslog
+      };
+
+      var handleInputAddress = function handleInputAddress(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          inputAddress: addLabel
+        });
+
+        console.log(_this7.state.inputAddress);
+      };
+
+      var handleLoanAmount = function handleLoanAmount(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          loanAmount: addLabel
+        });
+      };
+
+      var handleAutoProfit = function handleAutoProfit(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          autoProfit: addLabel
+        });
+      };
+
+      var handleAutoAmount = function handleAutoAmount(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          autoAmount: addLabel
+        });
+      };
+
+      var handleAutoTimepitch = function handleAutoTimepitch(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          autoTime: addLabel
+        });
+      };
+
+      var handleAutoSlippage = function handleAutoSlippage(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          autoSlippage: addLabel
+        });
+      };
+
+      var handleAutoGasValue = function handleAutoGasValue(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          autoGasValue: addLabel
+        });
+      };
+
+      var handleAutoGasLimit = function handleAutoGasLimit(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          autoGasLimit: addLabel
+        });
+      };
+
+      var handleOwnerAddress = function handleOwnerAddress(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          ownerAddress: addLabel
+        });
+      };
+
+      var handleOwnerPrivateKey = function handleOwnerPrivateKey(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          ownerPrivateKey: addLabel
+        });
+      };
+
+      var handleContractAddress = function handleContractAddress(e) {
+        var addLabel = e.target.value;
+
+        _this7.setState({
+          contractAddress: addLabel
+        });
+      };
+
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 539
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 541
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 542
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+        bg: "light",
+        border: "primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 543
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Body, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 544
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Title, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 545
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 545
+        },
+        __self: this
+      }, " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_14__["FiMonitor"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 545
+        },
+        __self: this
+      }), "  UniSwap SushiSwap Token Price Monitor"), " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 545
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_12__["MDBDataTableV5"], {
+        hover: true,
+        entriesOptions: [5, 20, 25],
+        entries: 5,
+        pagesAmount: 4,
+        data: datatable,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 546
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 546
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 546
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 548
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+        bg: "light",
+        style: {
+          height: '30rem'
+        },
+        border: "primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 550
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Body, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 551
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Title, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 552
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 552
+        },
+        __self: this
+      }, " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_icons_bs__WEBPACK_IMPORTED_MODULE_16__["BsClockHistory"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 552
+        },
+        __self: this
+      }), "  Trade Log"), " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 552
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_12__["MDBDataTableV5"], {
+        hover: true,
+        entriesOptions: [5, 20, 25],
+        entries: 5,
+        pagesAmount: 4,
+        data: datalog,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 553
+        },
+        __self: this
+      })))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 558
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+        bg: "light",
+        border: "primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 560
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Card"].Body, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 561
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 562
+        },
+        __self: this
+      }, " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_14__["FiUserPlus"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 562
+        },
+        __self: this
+      }), "  Input your Wallet Address and Private Key"), " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 562
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 562
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 563
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 564
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-10",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 565
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 566
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        placeholder: "Wallet address",
+        "aria-label": "Recipient's username",
+        "aria-describedby": "basic-addon2",
+        defaultValue: this.state.ownerAddress,
+        onChange: handleOwnerAddress,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 567
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        placeholder: "Private Key",
+        "aria-label": "Recipient's username",
+        "aria-describedby": "basic-addon2",
+        defaultValue: this.state.ownerPrivateKey,
+        onChange: handleOwnerPrivateKey,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 575
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 585
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 586
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 586
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 586
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 586
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 588
+        },
+        __self: this
+      }, " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_14__["FiPlus"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 588
+        },
+        __self: this
+      }), "  Add Token Address"), " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 588
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 588
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 589
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 590
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-10",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 591
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 592
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        placeholder: "Add Token address  ",
+        "aria-label": "Recipient's username",
+        "aria-describedby": "basic-addon2",
+        defaultValue: this.state.inputAddress,
+        onChange: handleInputAddress,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 593
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+        variant: "primary",
+        id: "button-addon2",
+        onClick: function onClick() {
+          return _this7.addAddress();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 600
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_14__["FiPlus"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 601
+        },
+        __self: this
+      }), "  Add Token Address"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 605
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 607
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 607
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 607
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 607
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 609
+        },
+        __self: this
+      }, " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_14__["FiCloudLightning"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 609
+        },
+        __self: this
+      }), "   Excution Trading"), " ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 609
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 609
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 609
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
+        show: this.state.showstate,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 610
+        },
+        __self: this
+      }, "We can excute Flash Loan Excute on ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 610
+        },
+        __self: this
+      }, this.state.tradeToken), " Token, buy price is(Eth/Token) ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 610
+        },
+        __self: this
+      }, this.state.tradebuyprice), " , sell price is(Eth/Token) ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 610
+        },
+        __self: this
+      }, this.state.tradesellprice, " "), ", profit rate is ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("b", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 610
+        },
+        __self: this
+      }, this.state.traderate, " %"), " "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 610
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 610
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 611
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 612
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "col-10",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 613
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 614
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+        variant: this.state.autoExcuteButtonState ? "danger" : "success",
+        id: "button-addon2",
+        onClick: this.state.autoExcuteButtonState ? function () {
+          return _this7.stopAutoExcute();
+        } : function () {
+          return _this7.autoExcute();
+        },
+        style: {
+          width: '100%'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 615
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_14__["FiCloudLightning"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 616
+        },
+        __self: this
+      }), "  ", this.state.autoExcuteButtonState ? "Stop Auto Excute" : "Start Auto Excute")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 620
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 620
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 620
+        },
+        __self: this
+      }))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Modal"], {
+        show: this.state.modalShowState,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 626
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Modal"].Header, {
+        closeButton: true,
+        onClick: function onClick() {
+          return _this7.closeModal();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 627
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Modal"].Title, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 628
+        },
+        __self: this
+      }, "Auto-Excute")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Modal"].Body, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 630
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 631
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Text, {
+        id: "basic-addon3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 632
+        },
+        __self: this
+      }, "Profit Rate"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        id: "basic-url1",
+        "aria-describedby": "basic-addon3",
+        type: "text",
+        defaultValue: this.state.autoProfit,
+        onChange: handleAutoProfit,
+        placeholder: "0x",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 635
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 639
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Text, {
+        id: "basic-addon3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 640
+        },
+        __self: this
+      }, "Flash Amount"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        id: "basic-url",
+        "aria-describedby": "basic-addon3",
+        type: "text",
+        defaultValue: this.state.autoAmount,
+        onChange: handleAutoAmount,
+        placeholder: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 643
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 647
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Text, {
+        id: "basic-addon3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 648
+        },
+        __self: this
+      }, "Interval"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        id: "basic-url",
+        "aria-describedby": "basic-addon3",
+        type: "text",
+        defaultValue: this.state.autoTime,
+        onChange: handleAutoTimepitch,
+        placeholder: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 651
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 656
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Text, {
+        id: "basic-addon3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 657
+        },
+        __self: this
+      }, "Slippage"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        id: "basic-url",
+        "aria-describedby": "basic-addon3",
+        type: "text",
+        defaultValue: this.state.autoSlippage,
+        onChange: handleAutoSlippage,
+        placeholder: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 660
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 665
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Text, {
+        id: "basic-addon3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 666
+        },
+        __self: this
+      }, "Gas value"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        id: "basic-url",
+        "aria-describedby": "basic-addon3",
+        type: "text",
+        defaultValue: this.state.autoGasValue,
+        onChange: handleAutoGasValue,
+        placeholder: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 669
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
+        className: "mb-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 674
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Text, {
+        id: "basic-addon3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 675
+        },
+        __self: this
+      }, "Gas Limit"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["FormControl"], {
+        id: "basic-url",
+        "aria-describedby": "basic-addon3",
+        type: "text",
+        defaultValue: this.state.autoGasLimit,
+        onChange: handleAutoGasLimit,
+        placeholder: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 678
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Modal"].Footer, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 684
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+        variant: "secondary",
+        onClick: function onClick() {
+          return _this7.closeModal();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 685
+        },
+        __self: this
+      }, "Close"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+        variant: "primary",
+        onClick: function onClick() {
+          return _this7.autoExcuteStart();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 688
+        },
+        __self: this
+      }, "Start"))));
+    }
+  }]);
+
+  return Display;
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Display);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.abd8018b49fe5d6b99d1.hot-update.js.map

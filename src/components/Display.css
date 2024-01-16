@@ -1,0 +1,25 @@
+.sticky-column {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0
+}
+
+.container {
+    border: 1px solid #eeccee;
+    max-height: 300px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.datatable{
+  text-align: center;
+}
+
+.address_text{
+  width : 50%;
+}
+
+.start_button{
+  width:50%;
+  right : 0;
+}
